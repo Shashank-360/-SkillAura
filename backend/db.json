@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin@123",
+      "role": "admin",
+      "id": "85b5"
+    },
+    {
+      "id": "8b1dd442-2355-4ae0-bd6e-72af4cbdbc4a",
+      "username": "s",
+      "email": "s@gmail.com",
+      "password": "s12345",
+      "confirmepassword": "s12345",
+      "role": "user"
+    },
+    {
+      "id": "a3a524e4-295f-4b31-a8c5-a41bc0347097",
+      "username": "sid",
+      "email": "sid@gmail.com",
+      "password": "sid12345",
+      "confirmepassword": "sid12345",
+      "role": "user"
+    },
+    {
+      "id": "fd1f8a35-abf2-470f-8049-e6591ce344d0",
+      "username": "Shanky",
+      "email": "shanky@gmail.com",
+      "password": "shanky123",
+      "confirmepassword": "shanky123",
+      "role": "user"
+    }
+  ],
+  "courses": [
+    {
+      "id": "8c0e3c93-554d-4ceb-a058-e5e4be786f17",
+      "cname": "React JS",
+      "course_image": "https://i.pinimg.com/1200x/9b/4e/e0/9b4ee057076232fb57c48cf80947f8a7.jpg",
+      "course_fee": "30000",
+      "course_duration": "2 months",
+      "course_author": "Akshay Sir"
+    },
+    {
+      "id": "feb5803e-5257-4169-a2a4-bbebdd482485",
+      "cname": "Java",
+      "course_image": "https://i.pinimg.com/736x/f4/53/d3/f453d3fdce3863f6b8678dcd7f797a71.jpg",
+      "course_fee": "40000",
+      "course_duration": "3 months",
+      "course_author": "Pavan Sir"
+    },
+    {
+      "id": "6087eaa4-64f5-4a78-acb6-5e36c340f033",
+      "cname": "Node JS",
+      "course_image": "https://i.pinimg.com/1200x/f3/4a/02/f34a0218dd2e38726c52ac763df55fa7.jpg",
+      "course_fee": "30000",
+      "course_duration": "3 months",
+      "course_author": "Varun Sir"
+    },
+    {
+      "id": "4e035e56-0d2f-44ea-8b43-0691345c5712",
+      "cname": "Mern Stack",
+      "course_image": "https://i.pinimg.com/1200x/7e/99/39/7e99396eaa01e7debe32912096a91952.jpg",
+      "course_fee": "30000",
+      "course_duration": "2 months",
+      "course_author": "Shrinivas Sir"
+    },
+    {
+      "id": "da6c5de4-9ca0-400e-ba4b-7981fe325e29",
+      "cname": "Python",
+      "course_image": "https://i.pinimg.com/1200x/c1/ce/a5/c1cea521f134ddf175866d5c6c416ebb.jpg",
+      "course_fee": "30000",
+      "course_duration": "2 months",
+      "course_author": "Karthik Sir"
+    }
+  ],
+  "cart": [
+    {
+      "id": "6087eaa4-64f5-4a78-acb6-5e36c340f033",
+      "cname": "Node JS",
+      "course_image": "https://i.pinimg.com/1200x/f3/4a/02/f34a0218dd2e38726c52ac763df55fa7.jpg",
+      "course_fee": "30000",
+      "course_duration": "3 months",
+      "course_author": "Varun Sir",
+      "userId": "8b1dd442-2355-4ae0-bd6e-72af4cbdbc4a"
+    }
+  ]
+}
