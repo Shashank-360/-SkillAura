@@ -1,5 +1,5 @@
 import axios from 'axios'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import toast from 'react-hot-toast'
 import { useNavigate, useParams } from 'react-router-dom'
 
@@ -23,6 +23,14 @@ const UpdateCourse = () => {
         course_author
     } = updateData
 
+    useEffect(() => {
+        let getDataToUpdate = async () => {
+            let res = await axios.get(`http://localhost:8055/courses/${id}`)
+            setUpdateData(res.data)
+        }
+        getDataToUpdate()
+    }, [])
+
     const handleOnChange = (e) => {
         const { name, value } = e.target
         setUpdateData({ ...updateData, [name]: value })
@@ -33,10 +41,7 @@ const UpdateCourse = () => {
 
         if (
             !cname ||
-            !course_image ||
-            !course_fee ||
-            !course_duration ||
-            !course_author
+            !course_image
         ) {
             toast.error("Please fill all fields")
             return

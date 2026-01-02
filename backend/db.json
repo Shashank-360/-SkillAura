@@ -30,6 +30,14 @@
       "password": "shanky123",
       "confirmepassword": "shanky123",
       "role": "user"
+    },
+    {
+      "id": "8242e575-489d-4876-897e-2aaed163ee70",
+      "username": "Kartik",
+      "email": "kartik@gmail.com",
+      "password": "k@12345",
+      "confirmepassword": "k@12345",
+      "role": "user"
     }
   ],
   "courses": [
@@ -72,6 +80,14 @@
       "course_fee": "30000",
       "course_duration": "2 months",
       "course_author": "Karthik Sir"
+    },
+    {
+      "cname": "Django",
+      "course_image": "https://i.pinimg.com/1200x/6c/7c/eb/6c7ceb7ea5c36365a59640ac143b368e.jpg",
+      "course_fee": "20000",
+      "course_duration": "1 months",
+      "course_author": "Kartik sir",
+      "id": "b78e2fde-4c6f-4a2a-bd09-3d938b8ea596"
     }
   ],
   "cart": [
@@ -83,6 +99,15 @@
       "course_duration": "3 months",
       "course_author": "Varun Sir",
       "userId": "8b1dd442-2355-4ae0-bd6e-72af4cbdbc4a"
+    },
+    {
+      "id": "8c0e3c93-554d-4ceb-a058-e5e4be786f17",
+      "cname": "React JS",
+      "course_image": "https://i.pinimg.com/1200x/9b/4e/e0/9b4ee057076232fb57c48cf80947f8a7.jpg",
+      "course_fee": "30000",
+      "course_duration": "2 months",
+      "course_author": "Akshay Sir",
+      "userId": "8242e575-489d-4876-897e-2aaed163ee70"
     }
   ]
 }
