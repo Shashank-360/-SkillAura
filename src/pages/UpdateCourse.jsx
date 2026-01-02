@@ -7,13 +7,7 @@ const UpdateCourse = () => {
     const navigate = useNavigate()
     const { id } = useParams()
 
-    const [updateData, setUpdateData] = useState({
-        cname: '',
-        course_image: '',
-        course_fee: '',
-        course_duration: '',
-        course_author: ''
-    })
+    const [updateData, setUpdateData] = useState()
 
     const {
         cname,
